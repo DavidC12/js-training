@@ -425,3 +425,13 @@ class VinylDisk extends PhysicalUnit {
 let myVinyl = new VinylDisk("catid",albumTrackArray[1],45);
 console.log(myVinyl);
 console.log(myVinyl.getSpeed());
+
+let timeoutID = setTimeout(function() {
+	console.log("Timeout 1 second.");
+},1000);
+
+let intervalID = setInterval(function() {
+	console.log("Timeout 1 second.");
+},1000);
+
+clearInterval(intervalID);
