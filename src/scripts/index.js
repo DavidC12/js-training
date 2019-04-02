@@ -197,6 +197,7 @@ form.addEventListener('submit', event => {
 		artist.style.borderColor = 'red';
 		artist.focus();
 	}
+	
 	console.log('Posting Test');
 	let posting = {
 		artist: artist.value,
